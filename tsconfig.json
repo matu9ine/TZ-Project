@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Целевой уровень ECMAScript
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ], // Библиотеки, которые будут использоваться
+    "allowJs": true, // Позволяет компилировать JavaScript файлы
+    "skipLibCheck": true, // Пропускает проверку типов в файлах библиотек
+    "strict": true, // Включает все проверки типов
+    "forceConsistentCasingInFileNames": true, // Поддержка согласованности в именах файлов
+    "noEmit": true, // Не генерировать выходные файлы
+    "esModuleInterop": true, // Включает совместимость с CommonJS
+    "module": "esnext", // Указывает модульную систему
+    "moduleResolution": "node", // Определяет способ разрешения модулей
+    "resolveJsonModule": true, // Поддержка импорта JSON файлов
+    "isolatedModules": true, // Поддержка изолированных модулей
+    "jsx": "react" // Указывает, что будет использоваться JSX
+  },
+  "include": [
+    "src"
+  ], // Указывает, какие директории будут включены
+  "exclude": [
+    "node_modules"
+  ] // Исключает директорию node_modules
+}
