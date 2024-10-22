@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "This is a React sandbox",
   "main": "index.js",
+  "homepage": "https://matu9ine.github.io/TZ-Project",
   "scripts": {
     "build": "webpack .",
     "start": "webpack-dev-server .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Brynkin Sergei",
   "license": "ISC",
