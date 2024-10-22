@@ -19,7 +19,7 @@ module.exports = {
    */
   output: {
     /** The output directory as an absolute path. */
-    path: path.resolve(__dirname, "public"),
+    path: path.resolve(__dirname, "dist"),
     /** This option determines the name of each output bundle. */
     filename: "main.js",
   },
